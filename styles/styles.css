@@ -45,10 +45,6 @@ nav ul li{
     align-items: center;
 }
 
-.banner-content{
-
-}
-
 .banner-h4{
     font-weight: 500;
     font-size: 25px;
@@ -60,11 +56,6 @@ nav ul li{
     font-weight: 600;
     font-size: 40px;
     color: #0E0E0E;
-
-}
-.banner-img{
-    width: 450px;
-    height: 370px;
 }
 
 .banner-btn{
@@ -149,13 +140,61 @@ nav ul li{
 }
 
 /* section-4("opinion table" section) */
-
+table{
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    border-radius: 8px;
+}
+thead{
+    background-color: #C6E4D6;
+}
+td{
+    border: 1px solid black;
+    padding: 25px;
+}
+.slct{
+    background-color: #C6E4D6;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+}
 
 /* section-5("recent news" section) */
 .news{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
+    gap: 30px;
+    padding: 0px 40px;
+    background-color: #f5f1f1;
+    border-radius: 8px;
+    height: 350px;
+}
+
+.img-satelite{
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+
+}
+
+.news-title{
+    font-weight: bold;
+    font-size: 25px;
+    color: #0E0E0E;
+    opacity: 80%;
+}
+
+.btn-news{
+    border-radius: 8px;
+    padding: 12px 25px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    border: none;
 }
 
 /* section-6("donate now" section) */
@@ -177,3 +216,39 @@ nav ul li{
     align-content: center;
 }
 
+/* section-7("newsletter" section) */
+.newsletter{
+    padding: 80px 100px;
+    border-radius: 24px;
+    background-color: #C6E4D6;
+    text-align: center;
+}
+
+.newsletter>h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.newsletter>p{
+    font-size: 16px;
+    font-weight: 400;
+    height: 0px;
+}
+
+.newsletter>input{
+    height: 55px;
+}
+.newsletter>a>button{
+    height: 56px;
+    padding: 20px 40px;
+}
+
+.newsletter>input,button{
+    text-align: center;
+    align-items: center;
+}
+
+/* footer section */
+footer{
+    text-align: center;
+}
