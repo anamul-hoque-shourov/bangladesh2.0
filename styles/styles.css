@@ -92,3 +92,11 @@ nav ul li{
     padding: 24px 24px;
     border-radius: 16px;
 }
+
+/* section 2 */
+
+.section2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
