@@ -131,7 +131,7 @@ nav ul li{
 
 /* section-3("chief advisor quote" section) */
 .section3{
-    background-image: url("/B11A1--assignment-1-main/assets/quote-bg.png");
+    background-image: url("./B11A1--assignment-1-main/assets/quote-bg.png");
     background-position: 30px 16px;
     background-repeat: no-repeat;
     background-color: #dfd6d6;
