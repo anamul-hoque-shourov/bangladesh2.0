@@ -242,6 +242,7 @@ input::placeholder{
 }
 .donate>h3{
     font-size: 40px;
+
 }
 
 /* section-7("newsletter" section) */
@@ -287,4 +288,11 @@ input::placeholder{
 /* footer section */
 footer{
     text-align: center;
+}
+footer>a>img{
+    margin: 10px;
+}
+
+footer>hr{
+    border: 1px solid #dde4e0;
 }
