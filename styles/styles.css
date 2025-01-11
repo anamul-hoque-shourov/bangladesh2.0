@@ -247,10 +247,11 @@ input::placeholder{
 
 /* section-7("newsletter" section) */
 .newsletter{
-    padding: 80px 100px;
+    padding: 20px 100px;
     border-radius: 24px;
     background-color: #C6E4D6;
     text-align: center;
+    height: 300px;
 }
 
 .newsletter>h3{
@@ -277,7 +278,7 @@ input::placeholder{
     text-align: center;
 }
 
-.newsletter-form>a>button{
+.newsletter-form>button{
     background-color: #006A50;
     padding: 15px 30px;
     color: #FFFFFF;
@@ -285,6 +286,10 @@ input::placeholder{
     height: 40px;
 }
 
+.newsletter-form>div>input::placeholder{
+    text-align: left;
+    padding-left: 20px;
+}
 /* footer section */
 footer{
     text-align: center;
@@ -295,4 +300,22 @@ footer>a>img{
 
 footer>hr{
     border: 1px solid #dde4e0;
+}
+
+
+button:hover{
+    background-color: #92beb3;
+    color: #0E0E0E;
+}
+
+footer>a>img:hover{
+    background-color: #bcc1c9;
+}
+
+.amount:hover{
+    background-color: #92beb3;
+}
+
+.slct:hover{
+    background-color: #92beb3;
 }
