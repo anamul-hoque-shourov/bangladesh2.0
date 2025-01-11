@@ -5,15 +5,16 @@
 }
 
 body{
-    margin: 0 100px;
+    margin: 0px 100px;
 }
-
+section{
+    margin-top: 100px;
+}
 /* nav styles */
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 20px;
 }
 
 nav ul li{
@@ -22,7 +23,7 @@ nav ul li{
 
 .nav-title{
     font-weight: bold;
-    font-size: 45px;
+    font-size: 40px;
 }
 
 .btn-signin{
@@ -31,15 +32,13 @@ nav ul li{
     border-radius: 8px;
     font-weight: 600;
     color: #006A50;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 /* banner styles */
 .banner{
     display: flex;
-    max-width: 1280px;
-    max-height: 560px;
-    padding: 80px 100px;
+    padding: 70px 40px 70px 60px;
     border-radius: 24px;
     background-color: #C6E4D6;
     justify-content: space-between;
@@ -47,49 +46,50 @@ nav ul li{
 }
 
 .banner-content{
-    width: 622px;
-    height: 326px;
+
 }
 
 .banner-h4{
     font-weight: 500;
-    font-size: 24px;
+    font-size: 25px;
     color: #0E0E0E;
     opacity: 50%;
 }
 
 .banner-h1{
-    font-weight: 700;
-    font-size: 56px;
+    font-weight: 600;
+    font-size: 40px;
     color: #0E0E0E;
 
 }
 .banner-img{
-    width: 474px;
-    height: 400px;
+    width: 450px;
+    height: 370px;
 }
 
 .banner-btn{
-    padding: 17px 34px;
+    padding: 15px 30px;
     text-align: center;
     background-color: #006A50;
     color: #FFFFFF;
     border-radius: 8px;
+    border: none;
 }
 
 /* section-1("pillars of bangladesh2.0" section) */
 .section1{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    gap: 20px;
 }
 
-.vision{
-    width: 300px;
-    height: 240px;
+.pillars{
     background-color: #dfd6d6;
-    padding: 24px 24px;
-    border-radius: 16px;
+    padding: 30px;
+    border-radius: 15px;
+    height: 250px;
+    width: 250px;
 }
 
 /* section-2("vision of future" section) */
@@ -97,13 +97,55 @@ nav ul li{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 20px;
+}
+
+.mission{
+    padding: 30px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.m1{
+    background-color: rgba(84, 144, 245, 20%);
+}
+
+.m2{
+    background-color: #C6E4D6;
+}
+
+.m3{
+    background-color: #F7EBCF;
+}
+
+.btn-1{
+    background-color: #5490F5;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+.btn-2{
+    background-color: #09A15C;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+}
+.btn-3{
+    background-color: #FFC239;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
 }
 
 /* section-3("chief advisor quote" section) */
 .section3{
     background-image: url("/B11A1--assignment-1-main/assets/quote-bg.png");
+    background-position: 30px 16px;
     background-repeat: no-repeat;
-
+    background-color: #dfd6d6;
+    padding: 30px;
+    border-radius: 15px;
 }
 
 /* section-4("opinion table" section) */
@@ -117,8 +159,21 @@ nav ul li{
 }
 
 /* section-6("donate now" section) */
-/* .donate{
+.donate{
+    text-align: center;
+    padding: 30px 150px;
+}
+
+.donation-amount{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-} */
+    gap: 25px;
+}
+
+.btn-donate{
+    background-color: #006A50;
+    padding: 15px 30px;
+    align-content: center;
+}
+
