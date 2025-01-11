@@ -77,8 +77,7 @@ nav ul li{
     border-radius: 8px;
 }
 
-/* section 1 */
-
+/* section-1("pillars of bangladesh2.0" section) */
 .section1{
     display: flex;
     justify-content: space-evenly;
@@ -93,10 +92,33 @@ nav ul li{
     border-radius: 16px;
 }
 
-/* section 2 */
-
+/* section-2("vision of future" section) */
 .section2{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
+/* section-3("chief advisor quote" section) */
+.section3{
+    background-image: url("/B11A1--assignment-1-main/assets/quote-bg.png");
+    background-repeat: no-repeat;
+
+}
+
+/* section-4("opinion table" section) */
+
+
+/* section-5("recent news" section) */
+.news{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* section-6("donate now" section) */
+/* .donate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
