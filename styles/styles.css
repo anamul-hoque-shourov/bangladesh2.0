@@ -1,70 +1,137 @@
 .fira-sans-regular {
     font-family: "Fira Sans", serif;
-    font-weight: 400;
-    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
 }
 
 body{
-    margin: 0px 100px;
-}
-section{
-    margin-top: 100px;
-}
-/* nav styles */
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    margin: 0px 50px;
 }
 
-nav ul li{
-    list-style: none;
+@media screen and (max-width: 576px) {
+    body{
+        margin: 0px 10px;
+    }
+    
+}
+
+/* Navbar Section */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
 }
 
 .nav-title{
     font-weight: bold;
-    font-size: 40px;
+    font-size: 2.25rem;
 }
 
-.btn-signin{
-    padding: 15px 30px;
+.signin-btn{
+    padding: 10px 20px;
     border: 1px solid #006A50;
     border-radius: 8px;
     font-weight: 600;
     color: #006A50;
-    font-size: 15px;
+    font-size: 1rem;
 }
 
-/* banner styles */
+@media screen and (max-width: 576px) {
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav-title{
+        font-weight: bold;
+        font-size: 1.75rem;
+    }
+}
+
+/* Banner Section */
+
 .banner{
     display: flex;
-    padding: 70px 40px 70px 60px;
-    border-radius: 24px;
-    background-color: #C6E4D6;
     justify-content: space-between;
     align-items: center;
+    padding: 50px 30px;
+    border-radius: 24px;
+    background-color: #C6E4D6;
 }
 
-.banner-h4{
+.banner-title{
     font-weight: 500;
-    font-size: 25px;
-    color: #0E0E0E;
+    font-size: 2rem;
     opacity: 50%;
+    margin-bottom: 20px;
 }
 
-.banner-h1{
+.banner-description{
     font-weight: 600;
-    font-size: 40px;
-    color: #0E0E0E;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
 }
 
 .banner-btn{
-    padding: 15px 30px;
-    text-align: center;
+    padding: 10px 20px;
     background-color: #006A50;
-    color: #FFFFFF;
+    color: white;
     border-radius: 8px;
     border: none;
+}
+
+.banner-img{
+    max-width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+    .banner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        padding: 20px 10px;
+        border-radius: 24px;
+        background-color: #C6E4D6; 
+    }
+
+    .banner-img{
+        margin-bottom: 20px;
+    }
+
+    .banner-title{
+        font-weight: 400;
+        font-size: 1.5rem;
+        opacity: 50%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .banner-description{
+        font-weight: 600;
+        font-size: 2rem;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .banner-btn{
+        padding: 10px 20px;
+        background-color: #006A50;
+        color: white;
+        border-radius: 8px;
+        border: none;
+    }
+    
+    .banner-anchor{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
 }
 
 /* section-1("pillars of bangladesh2.0" section) */
@@ -201,6 +268,9 @@ td{
 .donate{
     text-align: center;
     padding: 30px 150px;
+    border-radius: 20px;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+
 }
 
 .donation-amount{
@@ -209,27 +279,32 @@ td{
     align-items: center;
 }
 .amount{
-    font-size: 30px;
-    font-weight: bold;
-    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
     border: 1px solid #ebe5e5;
-    gap: 25px;
     padding: 10px 20px;
-    height: 40px;
+    height: 60px;
     width: 150px;
-    margin-bottom: 20px; 
+    margin-bottom: 40px; 
+}
+.amount p{
+    font-size: 30px;
+    font-weight: 800;
 }
 
 input{
     width: 800px;
-    height: 30px;
+    height: 40px;
     border: none;
     border-bottom: 1px solid #ebe5e5;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 
 }
 input::placeholder{
     text-align: center;
+    font-size: 15px;
     color: rgba(14, 14, 14, 30%);
 }
 
@@ -263,19 +338,13 @@ input::placeholder{
     font-size: 16px;
     font-weight: 400;
     height: 0px;
+    /* margin-bottom: 50px; */
 }
 
 .newsletter-form{
-    display: flex;
+    display: inline-block;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    width: 400px;
-    margin-top: 70px;
-    margin-inline: auto;
-    width: 500px;
-    height: 50px;
-    text-align: center;
 }
 
 .newsletter-form>button{
@@ -283,7 +352,7 @@ input::placeholder{
     padding: 15px 30px;
     color: #FFFFFF;
     border: none;
-    height: 40px;
+    height: 50px;
 }
 
 .newsletter-form>div>input::placeholder{
